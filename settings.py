@@ -4,8 +4,9 @@ from os import environ
 SESSION_CONFIGS = [
     dict(
         name='jspsych_on_otree',
+        display_name='jsPsych on oTree',
         app_sequence=[
-            'survey'
+            'includes_jspsych'
         ],
         num_demo_participants=1,
         doc="This is a sample code of oTree using jsPsych."

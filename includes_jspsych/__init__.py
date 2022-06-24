@@ -1,8 +1,11 @@
 from otree.api import *
 import json
 
+doc = """Includes the jsPsych application."""
+
+
 class C(BaseConstants):
-    NAME_IN_URL = 'survey'
+    NAME_IN_URL = 'includes_jspsych'
     PLAYERS_PER_GROUP = None
     NUM_ROUNDS = 1
 
