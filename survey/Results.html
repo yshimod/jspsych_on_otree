@@ -1,0 +1,13 @@
+{{ block title }}
+    Results
+{{ endblock }}
+
+{{ block content }}
+
+    <div style="width: 1024px; background-color: whitesmoke;">
+        <pre>
+            {{ indented_data | escape }}
+        </pre>
+    </div>
+
+{{ endblock }}
