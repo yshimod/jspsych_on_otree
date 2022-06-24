@@ -7,8 +7,9 @@ SESSION_CONFIGS = [
         app_sequence=[
             'survey'
         ],
-        num_demo_participants=1
-    ),
+        num_demo_participants=1,
+        doc="This is a sample code of oTree using jsPsych."
+    )
 ]
 
 # if you set a property in SESSION_CONFIG_DEFAULTS, it will be inherited by all configs
@@ -46,7 +47,7 @@ ADMIN_USERNAME = 'admin'
 # for security, best to set admin password in an environment variable
 ADMIN_PASSWORD = environ.get('OTREE_ADMIN_PASSWORD')
 
-DEMO_PAGE_INTRO_HTML = """ """
+DEMO_PAGE_INTRO_HTML = """This is a sample code of oTree using jsPsych."""
 
 SECRET_KEY = '5323192836748'
 
