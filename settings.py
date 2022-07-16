@@ -9,7 +9,7 @@ SESSION_CONFIGS = [
             'includes_jspsych'
         ],
         num_demo_participants=1,
-        doc="This is a sample code of oTree using jsPsych."
+        doc="This is a sample code using jsPsych. https://github.com/yshimod/jspsych_on_otree"
     )
 ]
 
@@ -48,7 +48,7 @@ ADMIN_USERNAME = 'admin'
 # for security, best to set admin password in an environment variable
 ADMIN_PASSWORD = environ.get('OTREE_ADMIN_PASSWORD')
 
-DEMO_PAGE_INTRO_HTML = """This is a sample code of oTree using jsPsych."""
+DEMO_PAGE_INTRO_HTML = """This is a sample code using jsPsych. https://github.com/yshimod/jspsych_on_otree"""
 
 SECRET_KEY = '5323192836748'
 
